@@ -1,0 +1,20 @@
+body {
+    padding: 16px;
+}
+
+p {
+    padding: 8px;
+}
+
+header {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+header > div {
+    width: 124px;
+    display: inline-block;
+    text-align: center;
+    padding: 16px;
+    background-color: #333333;
+}
