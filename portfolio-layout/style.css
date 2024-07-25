@@ -19,3 +19,7 @@ li {
 img, a, button, span {
     display: block;
 }
+
+body {
+    background-color: #333;
+}
