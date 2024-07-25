@@ -23,3 +23,12 @@ img, a, button, span {
 body {
     background-color: #333;
 }
+
+main {
+    max-width: 1200px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 24px;
+}
