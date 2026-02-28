@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <style>
+        body {
+            display: grid;
+            height: calc(100vh);
+        }
+    </style>
+</head>
+<body class="md:grid-cols-6">
+<header class="bg-teal-500 md:col-span-6">Header</header>
+<nav class="bg-blue-500 md:col-span-2 md:row-span-2 lg:col-span-1">Navigation Bar</nav>
+<main class="md:col-span-4">
+    <article class="bg-red-500">
+        Main Content
+        <section class="bg-sky-500">Section Content</section>
+        <section class="bg-green-500">Additional Content</section>
+    </article>
+</main>
+<aside class="bg-orange-500 md:col-span-4 lg:col-span-1">Sidebar</aside>
+<footer class="bg-gray-500 md:col-span-6">Footer</footer>
+</body>
+</html>
